@@ -1,0 +1,14 @@
+{
+  "name": "cptor",
+  "version": "0.1.0",
+  "author": "Frash | Francesco Ascenzi",
+  "main": "./index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "start": "node ./dist/index.js"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^20.12.12"
+  }
+}

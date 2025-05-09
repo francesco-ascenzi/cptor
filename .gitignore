@@ -1,0 +1,13 @@
+### Node ###
+
+# Modules
+node_modules
+
+# Settings
+settings.json
+
+# 'package-Lock.json' files
+package-lock.json
+
+# Generated output
+dist
