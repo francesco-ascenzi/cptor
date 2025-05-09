@@ -4,8 +4,7 @@
 A simple Node.js interactive script to:
 - move all nested files to the root directory.
 - recursively delete all empty folders.
-
----
+<br>
 
 ### Summary
 
@@ -19,12 +18,12 @@ A simple Node.js interactive script to:
 
 ---
 
-### Requirements
+## Requirements
 
 - **Node.js 18.0.0** or higher
 - **TypeScript 4.6** or higher (for full compatibility with ESM and modern features)
 
-### Installation
+## Installation
 
 Clone the repository with:
 
@@ -39,7 +38,7 @@ Install dependencies with:
 npm install
 ```
 
-### Usage
+## Usage
 
 Build the project with:
 
@@ -71,7 +70,7 @@ Social:
 - Instagram: [@frashenzi](https://www.instagram.com/frashenzi)
 - YouTube: [@francescoascenzi](https://www.youtube.com/@francescoascenzi)
 
-# License
+## License
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
 
