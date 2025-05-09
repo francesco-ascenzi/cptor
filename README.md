@@ -1,11 +1,11 @@
 # cptor
-<u>**Co**py **t**o **r**oot</u>
+**Co**py **t**o **R**oot
 
 A simple Node.js interactive script to:
 - move all nested files to the root directory.
 - recursively delete all empty folders.
 
-<hr>
+---
 
 ### Summary
 
@@ -15,8 +15,9 @@ A simple Node.js interactive script to:
 - [Support](#support)
 - [Author](#author)
 - [License](#license)
+- [Contributing](#contributing)
 
-<hr>
+---
 
 ### Requirements
 
@@ -49,16 +50,18 @@ npm run build
 Run the script:
 
 ```
-node index.js
+npm start
 ```
 
-Then follow instructions.
+Then follow the CLI instructions.
 
 ## Support
 
 If you find this project helpful, please consider supporting my work with a small donation at: 
 
 👉 [@PayPal](https://www.paypal.com/donate/?hosted_button_id=QL4PRUX9K9Y6A)
+
+Your support is greatly appreciated and helps keep the project going!
 
 ## Author
 
@@ -73,3 +76,9 @@ Social:
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
 
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+## Contributing
+
+If you would like to contribute to this project, feel free to open issues, submit pull requests, or provide suggestions for improvements!
+
+Please make sure to follow the coding standards and keep the code clean and well-documented.
