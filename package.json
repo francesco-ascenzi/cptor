@@ -1,7 +1,7 @@
 {
   "name": "cptor",
-  "version": "0.1.0",
-  "author": "Frash | Francesco Ascenzi",
+  "version": "1.0.0",
+  "author": "Francesco Ascenzi | Frash",
   "main": "./index.js",
   "scripts": {
     "build": "tsc -p .",
@@ -10,5 +10,8 @@
   "type": "module",
   "devDependencies": {
     "@types/node": "^20.12.12"
+  },
+  "engines": {
+    "node": ">= 18.0.0"
   }
 }

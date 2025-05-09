@@ -3,6 +3,7 @@ import path from "path";
 
 import prompt from "./lib/prompt.js";
 import moveToRoot from "./services/moveToRoot.js";
+import deleteEmptyFolders from "./services/deleteEmptyFolders.js";
 
 // Constants and variables
 let dirPath: string = "";
@@ -33,8 +34,12 @@ let dirPath: string = "";
     // Move files to the root directory
     await moveToRoot(dirPath);
 
-    const userInput: string = await prompt.getUserInput("Do you want to use restart it? (y/n)", 1);
-    if (userInput.toLowerCase() != "y") break;
+    // Remove preferences
+    const deleteChoice: string = await prompt.getUserInput("Do you want to delete empty folders?", 8000);
+    if (deleteChoice.trim().toLowerCase() == "y") await deleteEmptyFolders(dirPath);
+
+    const restartChoice: string = await prompt.getUserInput("Do you want to use restart it? (y/n)", 1);
+    if (restartChoice.trim().toLowerCase() != "y") break;
   }
 
   prompt.info("\n" + 
